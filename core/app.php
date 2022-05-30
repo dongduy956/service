@@ -8,6 +8,7 @@ class App {
        $arr=$this->UrlProcess();
        //Xử lý controller
        if(isset($arr[0])){
+           
         $this->controller=$arr[0]."Controller";
        }else{
            $arr[0]=$this->controller;

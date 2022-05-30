@@ -106,6 +106,7 @@ $('.btnDel').on('click',function(){
           success: function(data){
             if(data==1){
               alert('xoá thành công');
+              window.location.reload();
             }else{
               alert('xoá thất bại');
             }
